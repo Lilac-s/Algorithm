@@ -1,0 +1,5 @@
+A = '0b' + input()
+B = '0b' + input()
+newA = int(A, 2)
+newB = int(B, 2)
+print(format(newA*newB, 'b'))

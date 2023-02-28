@@ -1,3 +1,5 @@
+import sys
+
 def dfs(n):
     if n == N:
         global res
@@ -18,7 +20,7 @@ def check(n):
             return False
     return True
         
-N = int(input())
+N = int(sys.stdin.readline())
 res = 0
 board = list(0 for _ in range(N))
 visited = [False for _ in range(N)]

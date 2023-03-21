@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 numbers = list()
 n = int(input())
 for i in range(n):

@@ -14,6 +14,7 @@ for _ in range(n):
     numbers.append(number)
     if number in number_dict:
         number_dict[number] += 1
+        
     else:
         number_dict[number] = 1
     if number > max_num:
